@@ -1,0 +1,15 @@
+.content .abc ul{
+	list-style: none;
+	float:right;
+}
+/*方法一：把li设置为inline-block元素，让ul设置为右浮动*/
+/*.content .abc ul li{
+	display:inline-block;
+}*/
+/*方法二：把链接直接设置为inline-block元素，
+ * 可以节省慕课视频中，
+ * 法一还要把a同时设置为内联块级元素的相关代码。*/
+.content .abc ul li a {
+	display:inline-block;
+	float:left;
+}
